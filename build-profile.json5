@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/tal/.ohos/config/default_XJFHarmonyOSProject_YP7-umAdbWXoK-6ezOIPkS0TZANOnTwrUu_6mqv4ZNo=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B2098C6CF856ABE291ED592F6A4B5B189E285D4B7EB82D06332DEBA4891AF6D46EFA54D694CBE43",
+          "profile": "/Users/tal/.ohos/config/default_XJFHarmonyOSProject_YP7-umAdbWXoK-6ezOIPkS0TZANOnTwrUu_6mqv4ZNo=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/tal/.ohos/config/default_XJFHarmonyOSProject_YP7-umAdbWXoK-6ezOIPkS0TZANOnTwrUu_6mqv4ZNo=.p12",
+          "storePassword": "0000001BE4450C6DC8BC21E1D74E17E4A2C3FCA6F64415545232E05C7827A82663DC3637BAEF9B1EF9E2CE"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
