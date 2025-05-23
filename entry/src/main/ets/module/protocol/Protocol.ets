@@ -18,7 +18,7 @@ struct Protocol {
        * 最底层放置一个row，作为展示背景功能里边可以放置图片什么的任何背景
        */
       Row()
-        .backgroundColor($r('app.color.view_bluish'))
+        .backgroundColor($r('app.color.alphabet_selected_bgc'))
         .alignRules({
           center: { anchor: '__container__', align: VerticalAlign.Center },
           middle: { anchor: '__container__', align: HorizontalAlign.Center }
